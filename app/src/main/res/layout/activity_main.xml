@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D3D3D"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp">
+
+    <EditText
+        android:id="@+id/et_adder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你的RTSP地址:"
+        android:text="rtsp://192.168.43.125:8554/video"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/BtPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止" />
+
+</LinearLayout>
